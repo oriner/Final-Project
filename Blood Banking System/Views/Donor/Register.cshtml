@@ -1,0 +1,26 @@
+﻿@model BloodBankingSystem.Models.Donor
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donor Registration</title>
+</head>
+<body>
+    <h2>Donor Registration</h2>
+    <form method="post">
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label asp-for="BloodType"></label>
+            <input asp-for="BloodType" />
+        </div>
+        <div>
+            <label asp-for="Contact"></label>
+            <input asp-for="Contact" />
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

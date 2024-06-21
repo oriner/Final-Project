@@ -1,0 +1,26 @@
+﻿@model BloodBankingSystem.Models.BloodRequest
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Request</title>
+</head>
+<body>
+    <h2>Blood Request</h2>
+    <form method="post">
+        <div>
+            <label asp-for="RequestorName"></label>
+            <input asp-for="RequestorName" />
+        </div>
+        <div>
+            <label asp-for="BloodType"></label>
+            <input asp-for="BloodType" />
+        </div>
+        <div>
+            <label asp-for="Quantity"></label>
+            <input asp-for="Quantity" />
+        </div>
+        <button type="submit">Submit Request</button>
+    </form>
+</body>
+</html>
